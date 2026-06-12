@@ -1,6 +1,6 @@
 [![Pinelab Logo](https://pinelab.studio/pinepas_smaller.png)](https://pinelab.studio)
 
-# Vendure Dokploy Starter
+# Vendure Dokploy Starter. 
 
 This repository is a vanilla Vendure setup to deploy Vendure with Dokploy on a VPS: a Vendure API, worker instance, PostgreSQL and Redis with BullMQ as Job Queue.
 
