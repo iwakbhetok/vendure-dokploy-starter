@@ -21,11 +21,11 @@
     "bullmq": "^5.66.1",
     "dotenv": "17.2.3",
     "pg": "8.16.3",
+    "@types/multer": "^2.1.0",
     "typescript": "5.8.2",
     "xlsx": "^0.18.5"
   },
   "devDependencies": {
-    "@types/multer": "^2.1.0",
     "@vendure/cli": "3.5.2",
     "concurrently": "9.2.1"
   }
