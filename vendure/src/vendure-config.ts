@@ -20,6 +20,7 @@ import {
   HealthCheckPlugin,
   HttpHealthCheckStrategy,
 } from "./health-check";
+import { ProductImportPlugin } from "./plugins/product-import";
 
 const IS_LOCAL = process.env.APP_ENV === "local";
 const serverPort = +process.env.PORT || 3000;
@@ -114,6 +115,7 @@ export const config: VendureConfig = {
       route: "dashboard",
       appDir: path.join(__dirname, "../dist/dashboard"),
     }),
+    ProductImportPlugin,
     // Uncomment this to enable healthchecks
     // HealthCheckPlugin.init({
     //   strategies: [
